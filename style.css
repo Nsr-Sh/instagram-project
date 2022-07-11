@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: rgb(170, 168, 168);
+}
+
+
+/* container */
+.container {
+    width: 950px;
+    margin: 0 auto;
+
+
+}
+
+
+/* main */
+.main-left,
+.main-right {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.main-left {
+    width: 55%;
+}
+
+.main-left img {
+    width: 100%;
+    padding-top: 40px;
+
+}
+
+.main-right {
+    width: 44%;
+}
+
+.register-form,
+.switch-page {
+    border: solid 1px rgb(226, 226, 226);
+    background: white;
+    padding: 45px;
+
+}
+
+.register-form form input {
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    border: solid 1px rgb(216, 216, 216);
+    box-sizing: border-box;
+    outline: none;
+    padding: 12px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+
+}
+
+.register-form form input:last-of-type {
+    background-color: rgb(21, 172, 241);
+    color: white;
+    border: none;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register-form p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+.register-form p:last-of-type {
+    color: rgb(128, 126, 126)
+}
+
+.register-form a {
+    font-weight: bold;
+}
+
+.register-form img {
+    cursor: pointer;
+}
+
+.switch-page {
+    padding: 20px;
+
+
+}
+
+.switch-page a {
+    color: rgb(0, 140, 255);
+}
+
+
+.main-right div {
+    margin-bottom: 10px;
+
+}
+
+.app-links img {
+    width: 135px;
+    margin-left: 5px;
+    margin-top: 6px;
+
+}
+
+.app-links {
+    margin-top: 25px;
+}
+
+/* footer */
+
+.footer div {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer a {
+    margin-right: 10px;
+
+}
+
+.copyright span {
+    color: rgb(177, 175, 175)
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 3%;
+}
