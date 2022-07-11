@@ -1,2 +1,2 @@
-# instagram-project
+# nsrsh25.instagram-project
 This project is for HTML & CSS practice.
